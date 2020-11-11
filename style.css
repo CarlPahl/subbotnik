@@ -14,7 +14,7 @@ h1 {
   }
 
 .main {
-    background-image: url('/Users/Carli/projects/hello html/Neuer Ordner/background.png');
+    background-image: url('/background.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
