@@ -1,0 +1,58 @@
+h1 {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+}
+
+.overlay {
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    background-color: red;
+    position: absolute;
+  }
+
+.main {
+    background-image: url('/Users/Carli/projects/hello html/Neuer Ordner/background.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    z-index: 10;
+    position: fixed;
+    top: 8px;
+    left: 40px;
+}
+
+.logo h1 {
+    font-size: 50px;
+}
+
+nav li {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: white;
+    z-index: 10;
+    display: inline-block;
+}
+
+nav {
+    z-index: 10;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
